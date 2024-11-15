@@ -21,5 +21,4 @@ package org.apache.nifi.websocket;
  */
 public interface ConnectedListener {
     void connected(final WebSocketSessionInfo sessionInfo);
-    void disconnected(final WebSocketSessionInfo sessionInfo);
 }
